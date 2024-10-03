@@ -1,0 +1,160 @@
+* {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Monaco, "Lucida Console", "Courier New", monospace, 'Ubuntu', sans-serif;
+}
+
+
+/* For the first row boxes */
+.menu-container {
+    display: flex;
+    color: #110404;
+    /* border: 1px solid black;      For debugging */
+    height: 62vh;
+    margin: 25px 25px 0px 25px;
+    
+
+
+}
+
+h1{
+    background-color: #1E191E;
+}
+h2{
+    background-color: #A6FAAA; 
+}
+h3{
+    background-color: #FAE1D7;
+}
+h4{
+    background-color: #FAE1D7 ;
+}
+
+a{
+    background-color: #FAE1D7;
+}
+
+
+
+
+
+.middle-box {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+
+}
+
+
+.container {
+    flex-wrap: wrap;
+    /* outline: 2px solid black;    For debugging */
+    margin: 4px;
+    height: 100px;
+    width: 100px;
+    
+
+}
+
+#box-1 {
+    display: flex;
+    align-items: center;
+    background-color: #F52D55;
+    height: 380px;
+    width: 370px;
+    border-top-left-radius: 5%;
+    font-size: 25px;
+    font-family: 'Brush Script MT', 'Brush Script Std', 'cursive';
+    /* font-family: cursive; */
+
+}
+
+#box-2 {
+    display: flex;
+    align-items: center;
+    background-color: #FAE1D7;
+    height: 160px;
+    width: 455px;
+    font-size: 25px;
+}
+
+#box-3 {
+    display: flex;
+    align-items: center;
+    background-color: #1E191E;
+    height: 212px;
+    width: 455px;
+    color: white;
+    font-size: 64px;
+    font-family: Jazz LET, fantasy;
+}
+
+#box-4 {
+    display: flex;
+    align-items: center;
+    background-color: #B9B4FF;
+    height: 380px;
+    width: 370px;
+    border-top-right-radius: 5%;
+    font-size: 25px;
+}
+
+.eye-image{
+    height: 20px;
+    width: 20px;
+    background-size: 100%;
+}
+
+
+
+
+/* For Second row */
+
+
+.menu-container-2{
+    display: flex;
+    color: #110404;
+    /* border: 1px solid black;      For debugging */
+    height: 28vh;
+    margin: 5px 25px 5px 25px;
+    text-align: center;
+
+}
+
+.container-2 {
+    flex-wrap: wrap;
+    /* outline: 2px solid black;    For debugging */
+    margin: 4px;
+    height: 100px;
+    width: 100px;
+
+}
+
+#box-5 {display: flex;
+    align-items: center;
+    background-color: #A6FAAA;
+    height: 166px;
+    width: 750px;
+    border-bottom-left-radius: 18px;
+    font-size: 25px;
+}
+
+#box-6 {
+    display: flex;
+    align-items: center;
+    background-color: #FAE1D7;
+    height: 166px;
+    width: 453px;
+    border-bottom-right-radius: 18px;
+    font-size: 20px;
+}
+
+#box-6 :hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: grey;
+}
